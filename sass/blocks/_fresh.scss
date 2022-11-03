@@ -1,29 +1,6 @@
 .fresh {
     padding: 96px 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/bg/fresh.jpeg) center (center/cover) no-repeat;
-    &__title {
-        font-size: 40px;
-        line-height: 48px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    &__line {
-        max-width: 190px;
-        border: 2px solid #FFFFFF;
-        border-bottom: none;
-        margin: 0 auto;
-        margin-top: 24px;
-    }
-    &__descr {
-        margin: 0 auto;
-        margin-top: 24px;
-        max-width: 474px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        color: #FFFFFF;
-    }
     &__btn {
         display: block;
         margin: 0 auto;
