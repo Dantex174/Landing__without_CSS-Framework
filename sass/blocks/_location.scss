@@ -1,0 +1,44 @@
+.location {
+    padding: 96px 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/bg/location.jpeg) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .place {
+            max-width: 20%;
+            @media (max-width: 992px) {
+                margin: 0 auto;
+                margin-top: 25px;
+                max-width: 256px;
+            }
+            &__img {
+                margin: 0 auto;
+                max-width: 245px;
+                img {
+                    width: 100%;
+                }
+            }
+            &__title {
+                margin-top: 24px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 48px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &__descr {
+                margin-top: 30px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

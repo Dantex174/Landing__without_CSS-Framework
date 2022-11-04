@@ -2,10 +2,10 @@
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    &_fresh, &_testimonials {
+    &_white {
         color: #fff;
     }
-    &_menu {
+    &_black {
         color: #000;
     }
 }
@@ -15,10 +15,10 @@
     border-bottom: none;
     margin: 0 auto;
     margin-top: 24px;
-    &_fresh, &_testimonials {
+    &_white {
         border-color: #fff;
     }
-    &_menu {
+    &_black {
         border-color: #000;
     }
 }
@@ -30,10 +30,10 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    &_fresh {
+    &_white {
         color: #fff;
     }
-    &_menu {
+    &_black {
         color: #000;
     }
 }
