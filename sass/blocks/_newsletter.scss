@@ -1,0 +1,53 @@
+.newsletter {
+    padding: 96px 0;
+    background-color: black;
+    .form {
+        margin: 0 auto;
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 474px;
+        @media (max-width: 576px) {
+            flex-direction: column;
+        }
+        &__input {
+            width: 277px;
+            @media (max-width: 576px) {
+                margin: 0 auto;
+            }
+        }
+        input {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 48px;
+            color: #FFFFFF;
+            width: 277px;
+            height: 48px;
+            border: 1px solid #FFFFFF;
+            background-color: black;
+            padding-left: 24px;
+        }
+        &__btn {
+            padding: 0px 41px;
+            width: 173px;
+            height: 48px;
+            border: 1px solid #FFFFFF;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 48px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background-color: black;
+            transition: 0.3s;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+            @media (max-width: 576px) {
+                margin: 0 auto;
+                margin-top: 25px;
+            }
+        }
+    }
+}
