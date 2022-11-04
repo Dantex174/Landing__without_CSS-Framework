@@ -1,6 +1,6 @@
 .newsletter {
     padding: 96px 0;
-    background-color: black;
+    background: #111111;
     .form {
         margin: 0 auto;
         margin-top: 48px;
@@ -24,7 +24,7 @@
             width: 277px;
             height: 48px;
             border: 1px solid #FFFFFF;
-            background-color: black;
+            background: #111111;
             padding-left: 24px;
         }
         &__btn {
@@ -38,7 +38,7 @@
             text-align: center;
             text-transform: uppercase;
             color: #FFFFFF;
-            background-color: black;
+            background: #111111;
             transition: 0.3s;
             &:hover {
                 background-color: white;

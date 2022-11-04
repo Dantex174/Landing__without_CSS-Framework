@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__wrapper">
             <div class="header__logo">
                 <a href="">Coffee House</a>
@@ -20,25 +20,25 @@
             <nav class="navMenu">
                 <ul class="navMenu__list">
                     <li class="navMenu__item">
-                        <a href="" class="navMenu__link">Home</a>
+                        <a href="#header" class="navMenu__link">Home</a>
                     </li>
                     <li class="navMenu__item">
-                        <a href="" class="navMenu__link">why us</a>
+                        <a href="#about" class="navMenu__link">why us</a>
                     </li>
                     <li class="navMenu__item">
-                        <a href="" class="navMenu__link">menu</a>
+                        <a href="#menu" class="navMenu__link">menu</a>
                     </li>
                     <li class="navMenu__item">
-                        <a href="" class="navMenu__link">happy clients</a>
+                        <a href="#testimonials" class="navMenu__link">happy clients</a>
                     </li>
                     <li class="navMenu__item">
                         <a href="" class="navMenu__link">blog</a>
                     </li>
                     <li class="navMenu__item">
-                        <a href="" class="navMenu__link">our locations</a>
+                        <a href="#location" class="navMenu__link">our locations</a>
                     </li>
                     <li class="navMenu__item">
-                        <a href="" class="navMenu__link">newsletter</a>
+                        <a href="#newsletter" class="navMenu__link">newsletter</a>
                     </li>
                 </ul>
             </nav>
@@ -53,7 +53,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__wrapper">
                 <div class="blocks-left">
@@ -128,7 +128,7 @@
         </div>
     </section>
 
-    <section class="menu">
+    <section class="menu" id="menu">
         <div class="container">
             <h2 class="title title_black">Explore our menu</h2>
             <div class="line line_black"></div>
@@ -384,7 +384,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <h2 class="title title_white">Testimonials</h2>
             <div class="line line_white"></div>
@@ -411,7 +411,7 @@
         </div>
     </section>
 
-    <section class="news">
+    <section class="news" id="news">
         <div class="container">
             <div class="title title_black">News</div>
             <div class="line line_black"></div>
@@ -451,7 +451,7 @@
         </div>
     </section>
 
-    <section class="location">
+    <section class="location" id="location">
         <div class="container">
             <div class="title title_white">Our locations</div>
             <div class="line line_white"></div>
@@ -488,7 +488,7 @@
         </div>
     </section>
 
-    <section class="newsletter">
+    <section class="newsletter" id="newsletter">
         <div class="container">
             <div class="title title_white">Our newsletter</div>
             <div class="line line_white"></div>
@@ -502,6 +502,34 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__copyright">Copyright 2022 All rights reserved</div>
+                <nav class="footer__navMenu">
+                    <ul class="footerMenu">
+                        <li class="footerMenu__item">
+                            <a href="#header" class="footerMenu__link">Home</a>
+                        </li>
+                        <li class="footerMenu__item">
+                            <a href="" class="footerMenu__link">About</a>
+                        </li>
+                        <li class="footerMenu__item">
+                            <a href="" class="footerMenu__link">Shop</a>
+                        </li>
+                        <li class="footerMenu__item">
+                            <a href="" class="footerMenu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__links">
+                    <a href="" class="footer__link">Fb</a>
+                    <a href="" class="footer__link">Tw</a>
+                    <a href="" class="footer__link">Ig</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/jquery-3.6.1.slim.js"></script>
     <script src="js/script.js"></script>
 </body>
