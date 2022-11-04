@@ -1,0 +1,48 @@
+.testimonials {
+    padding: 96px 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/bg/testimonials.jpeg) center (center/cover) no-repeat;
+    &__blocks {
+        margin: 0 auto;
+        margin-top: 48px;
+        max-width: 745px;
+        .testimonial {
+            display: none;
+            &__text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &__name {
+                margin-top: 24px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+        .testimonial.active {
+            display: block;
+        }
+    }
+    &__selectors {
+        margin: 0 auto;
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        width: 53px;
+        height: 23px;
+    }
+    &__selector {
+        cursor: pointer;
+        width: 11px;
+        height: 11px;
+        border: solid 1px white;
+        border-radius: 50%;
+    }
+    &__selector.active {
+        background-color: #FFFFFF;
+    }
+}

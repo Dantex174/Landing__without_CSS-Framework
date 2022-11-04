@@ -2,7 +2,7 @@
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    &_fresh {
+    &_fresh, &_testimonials {
         color: #fff;
     }
     &_menu {
@@ -15,7 +15,7 @@
     border-bottom: none;
     margin: 0 auto;
     margin-top: 24px;
-    &_fresh {
+    &_fresh, &_testimonials {
         border-color: #fff;
     }
     &_menu {
